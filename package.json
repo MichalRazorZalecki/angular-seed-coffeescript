@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "description": "A starter project for AngularJS with CoffeeScript",
-  "repository": "https://github.com/angular/angular-seed",
+  "repository": "https://github.com/MichalZalecki/angular-seed-coffeescript",
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.3.1",
@@ -22,6 +22,7 @@
     "postinstall": "bower install",
     "prestart": "npm install",
     "start": "http-server -a localhost -p 8000 -c-1",
+    "start-cloud9": "http-server -a $IP -p $PORT -c-1",
     "pretest": "npm install",
     "test": "karma start karma.conf.coffee",
     "test-single-run": "karma start karma.conf.coffee  --single-run",
