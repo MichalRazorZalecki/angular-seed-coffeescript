@@ -25,4 +25,4 @@ npm run coffee
 ## @TODO
 * E2E tests with CoffeeScript
 
-![forthebadge](http://forthebadge.com/badges/gluten-free.svg)
+[![forthebadge](http://forthebadge.com/badges/gluten-free.svg)](http://forthebadge.com)
