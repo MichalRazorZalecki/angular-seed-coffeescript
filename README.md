@@ -7,6 +7,9 @@ This project is an application skeleton for a typical
 informations about angular-seed itself read orginal 
 [README.md](https://github.com/angular/angular-seed/blob/master/README.md)
 
+angular-seed-coffeescript is developed to be as similar as possible to 
+angular-seed to be easy to update in the future.
+
 # Compile CoffeScript
 In order to copmile `*.coffee`files run:
 ```
@@ -20,4 +23,4 @@ npm run coffee
 * Up-to-date Karma test runner with Jasmine 2.1
 
 ## @TODO
-* E2E test with CoffeeScript
+* E2E tests with CoffeeScript
