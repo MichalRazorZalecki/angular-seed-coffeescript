@@ -71,12 +71,15 @@ module.exports = (config) ->
     # if true, Karma captures browsers, runs the tests and exits
     singleRun: false
 
+
+    # list of plugins
     plugins : [
       'karma-phantomjs-launcher'
       'karma-jasmine'
       'karma-junit-reporter'
     ]
     
+    # karma-junit-reporter config
     junitReporter : {
       outputFile: 'test_out/unit.xml',
       suite: 'unit'
