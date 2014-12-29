@@ -7,5 +7,6 @@ This project is an application skeleton for a typical
 informations about angular-seed itself read orginal 
 [README.md](https://github.com/angular/angular-seed/blob/master/README.md)
 
+
 ## @TODO
 * E2E with CoffeeScript
