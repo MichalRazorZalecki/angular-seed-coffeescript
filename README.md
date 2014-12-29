@@ -11,7 +11,7 @@ angular-seed-coffeescript is developed to be as similar as possible to
 angular-seed to be easy to update in the future.
 
 # Compile CoffeScript
-In order to copmile `*.coffee`files run:
+In order to compile `*.coffee`files run:
 ```
 npm run coffee
 ```
