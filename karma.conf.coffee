@@ -18,8 +18,7 @@ module.exports = (config) ->
       'app/bower_components/angular/angular.js'
       'app/bower_components/angular-route/angular-route.js'
       'app/bower_components/angular-mocks/angular-mocks.js'
-      'app/components/**/*.js'
-      'app/view*/**/*.js'
+      'app/coffee/**/*.coffee'
     ]
 
 
@@ -30,8 +29,8 @@ module.exports = (config) ->
 
     # preprocess matching files before serving them to the browser
     # available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {
-    }
+    preprocessors:
+      '**/*.coffee': ['coffee']
 
 
     # test results reporter to use
@@ -72,15 +71,7 @@ module.exports = (config) ->
     singleRun: false
 
 
-    # list of plugins
-    plugins : [
-      'karma-phantomjs-launcher'
-      'karma-jasmine'
-      'karma-junit-reporter'
-    ]
-    
     # karma-junit-reporter config
-    junitReporter : {
-      outputFile: 'test_out/unit.xml',
+    junitReporter :
+      outputFile: 'test_out/unit.xml'
       suite: 'unit'
-    }
